@@ -5,7 +5,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity FIR_DF_Top is
 
     Port ( 
-				Clock 			: in  STD_LOGIC;
+				Clock 		: in  STD_LOGIC;
 				Input_Signal 	: in  signed (13 downto 0);
 				Output_Signal	: out	signed (13 downto 0)
 				);
